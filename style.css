@@ -36,7 +36,7 @@ button:focus {
 button {
 	cursor: pointer;
 }
-*, *:after, *:before {
+, :after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -49,7 +49,8 @@ header {
 	position: fixed;
 	z-index: 999;
 	top: 0;
-	background:#fff;
+	background: #fff;
+	box-shadow: 0 0 4px rgba(0,0,0,0.6);
 }
 header, .main-sel, footer {
 	float: left;
@@ -138,65 +139,96 @@ header .navbar {
 	font-size: 24px;
 	padding: 10px 30px;
 }
+.head-text h1 {
+	color: #606062;
+	font-size: 40px;
+	font-weight: 600;
+}
+.memboxs h2 {
+	font-size: #000;
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.img-box {
+	height: 300px;
+	overflow: hidden;
+	margin-bottom:15px;
+}
+.more-butn a{
+	color:#000;
+	font-size:14px;
+	text-decoration: underline;
+}
+.more-butn a:hover{
+	color:#cf3136;
+}
 
-/***
-.owl-stage {
-	-webkit-transition: all 3s ease !important;
-	-moz-transition: all 3s ease !important;
-	-o-transition: all 3s ease !important;
-	-ms-transition: all 3s ease !important;
-	transition: all 3s ease !important;
+/**How to join**/
+.olclick ol li {
+    color: #6f6d71;
+    padding: 3px 0px;
 }
-side css
-.owl-controls .owl-nav {
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #2676bd;
+.aply-ntn .btn {
+    background: #373435;
+    color: #fff;
+    border-radius: 0px;
 }
-.owl-nav div {
-  padding: 10px 20px;
+
+.aply-ntn .btn:hover {
+    background: #ce181e;
 }
-.owl-prev {
-  float: left;
+
+.text-white ol li {
+    color: #fff;
 }
-.owl-carousel.side-gap .owl-stage-outer {
-  border-radius: 6px;
+
+.text-white h1{ color:#fff;}
+
+/**Foooter css**/
+
+.darkbg{
+	background:#373435;
 }
-.owl-next {
-  float: right;
+
+.foot-social li {
+    display: inline-block;
+    padding-right: 10px;
 }
-down css
-.owl-controls {
-  margin: 20px 0;
-  text-align: center;
+
+.foot-social li a {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 100px;
 }
-.owl-nav {
-  color: #e725a5;
+
+.contctus h5 {
+    color: #fff;
 }
-.owl-nav div {
-  display: inline;
-  margin: 0 8px;
-  padding: 10px;
+
+.contctus a {
+    color: #fff;
 }
-.owl-dots {
-  height: 20px;
-  display: table;
-  margin: 20px auto;
+.usefull-link ul li{
+    display: block;
+    color: #fff;
+	padding:4px 0px;
 }
-.owl-dots .owl-dot {
-  border: 1px solid #fff;
-  display: inline-block;
-  height: 15px;
-  margin: 0 5px;
-  width: 15px;
+
+.usefull-link ul li a {
+    display: block;
+    color: #fff;
 }
-.owl-dot.active{
-	background:#fff;
-	}
-	***/
+.usefull-link ul li a:hover {
+    color: #ce181e;
+}
+
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 }
 @media (max-width: 1024px) {
