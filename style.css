@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/fa-light-300.eot");
+  src: url("fonts/fa-light-300.eot?#iefix") format("embedded-opentype"), url("fonts/fa-light-300.woff2") format("woff2"), url("fonts/fa-light-300.woff") format("woff"), url("fonts/fa-light-300.ttf") format("truetype"), url("fonts/fa-light-300.svg#fontawesome") format("svg"); }
+
+.fal {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 300; }
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+input, textarea, select, ol, ul, li, a, p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	text-decoration: none;
+	outline: none;
+}
+a, a:hover, a:focus {
+	cursor: pointer;
+	-webkit-transition: all .4s ease 0s;
+	-moz-transition: all .4s ease 0s;
+	transition: all .4s ease 0s;
+	text-decoration: none;
+	outline: none;
+	text-decoration: none;
+}
+button:focus {
+	border: none;
+	outline: none;
+}
+button {
+	cursor: pointer;
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header {
+	margin: 0;
+	padding: 0px;
+}
+.sticky {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	background:#fff;
+}
+header, .main-sel, footer {
+	float: left;
+	width: 100%;
+}
+.main-sel ul {
+	padding: 0;
+}
+.main-sel ul li {
+	list-style: none;
+}
+/*****css start here*******/
+.sicon-top li {
+	display: inline-flex;
+	margin-left: 10px;
+}
+.sicon-top li a {
+	background: #060606;
+	color: #fff;
+	font-size: 14px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 100px;
+}
+.sicon-top li a:hover {
+	background: #cf3136;
+	color: #fff;
+}
+.navbar-brand img {
+	width: 300px;
+	margin-top: -59px;
+}
+header .navbar {
+	margin: 0;
+	padding:0px;
+	border: none;
+	background: none;
+}
+.main-nav nav ul li a {
+	color: #373435 !important;
+	font-weight: 500;
+}
+.main-nav nav ul li a:hover, .main-nav nav ul .active a, .main-nav nav ul .current-menu-item a, .main-nav nav ul li a:focus{
+	color:#cf3136 !important;
+}
+.banner{
+	padding:30px 0;
+	background: url(images/b1.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bantext-butn{
+	width: 500px;
+}
+.banbg {
+	background: rgba(255,255,255,0.8);
+	padding: 20px;
+	
+}
+.banbg h1 {
+	color: #060606;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom:15px;
+}
+.w-bg{
+	background: #fff;
+	color: #000;
+}
+.w-bg:hover{
+	background: #cf3136;
+	color: #fff;
+}
+.b-bg{
+	background: #373435;
+	color: #fff;
+}
+.b-bg:hover{
+	background: #cf3136;
+	color: #fff;
+}
+.butn-apply {
+	display: inline-block;
+	font-size: 24px;
+	padding: 10px 30px;
+}
+
+/***
+.owl-stage {
+	-webkit-transition: all 3s ease !important;
+	-moz-transition: all 3s ease !important;
+	-o-transition: all 3s ease !important;
+	-ms-transition: all 3s ease !important;
+	transition: all 3s ease !important;
+}
+side css
+.owl-controls .owl-nav {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2676bd;
+}
+.owl-nav div {
+  padding: 10px 20px;
+}
+.owl-prev {
+  float: left;
+}
+.owl-carousel.side-gap .owl-stage-outer {
+  border-radius: 6px;
+}
+.owl-next {
+  float: right;
+}
+down css
+.owl-controls {
+  margin: 20px 0;
+  text-align: center;
+}
+.owl-nav {
+  color: #e725a5;
+}
+.owl-nav div {
+  display: inline;
+  margin: 0 8px;
+  padding: 10px;
+}
+.owl-dots {
+  height: 20px;
+  display: table;
+  margin: 20px auto;
+}
+.owl-dots .owl-dot {
+  border: 1px solid #fff;
+  display: inline-block;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+.owl-dot.active{
+	background:#fff;
+	}
+	***/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+}
+
+
+@media (max-width: 767px) {
+}
+@media (max-width: 480px) {
+}
