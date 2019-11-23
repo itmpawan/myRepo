@@ -45,6 +45,12 @@ header {
 	margin: 0;
 	padding: 0px;
 }
+.ashu {
+	padding:40px;
+	background:red;
+	float: left;
+	width:100%;
+}
 .sticky {
 	position: fixed;
 	z-index: 999;
