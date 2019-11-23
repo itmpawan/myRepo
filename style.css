@@ -51,6 +51,12 @@ header {
 	float: left;
 	width:100%;
 }
+.ashu .line{
+	float: left;
+	width:100%;
+	border-bottom:2px solid #fff;
+	margin-bottom:2px;
+}
 .parveen {
 	padding:40px;
 	background:red;
