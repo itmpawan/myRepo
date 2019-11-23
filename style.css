@@ -36,7 +36,7 @@ button:focus {
 button {
 	cursor: pointer;
 }
-*, *:after, *:before {
+, :after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -227,65 +227,11 @@ header .navbar {
 .usefull-link ul li a:hover {
     color: #ce181e;
 }
+<<<<<<< HEAD
+=======
 
-/***
-.owl-stage {
-	-webkit-transition: all 3s ease !important;
-	-moz-transition: all 3s ease !important;
-	-o-transition: all 3s ease !important;
-	-ms-transition: all 3s ease !important;
-	transition: all 3s ease !important;
-}
-side css
-.owl-controls .owl-nav {
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #2676bd;
-}
-.owl-nav div {
-  padding: 10px 20px;
-}
-.owl-prev {
-  float: left;
-}
-.owl-carousel.side-gap .owl-stage-outer {
-  border-radius: 6px;
-}
-.owl-next {
-  float: right;
-}
-down css
-.owl-controls {
-  margin: 20px 0;
-  text-align: center;
-}
-.owl-nav {
-  color: #e725a5;
-}
-.owl-nav div {
-  display: inline;
-  margin: 0 8px;
-  padding: 10px;
-}
-.owl-dots {
-  height: 20px;
-  display: table;
-  margin: 20px auto;
-}
-.owl-dots .owl-dot {
-  border: 1px solid #fff;
-  display: inline-block;
-  height: 15px;
-  margin: 0 5px;
-  width: 15px;
-}
-.owl-dot.active{
-	background:#fff;
-	}
-	***/
+>>>>>>> 7904ba7750034d85bfbf3ac0d2e8217472c7b97d
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 }
 @media (max-width: 1024px) {
