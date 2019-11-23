@@ -51,6 +51,12 @@ header {
 	float: left;
 	width:100%;
 }
+.parveen {
+	padding:40px;
+	background:red;
+	float: left;
+	width:100%;
+}
 .sticky {
 	position: fixed;
 	z-index: 999;
