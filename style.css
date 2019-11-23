@@ -49,7 +49,8 @@ header {
 	position: fixed;
 	z-index: 999;
 	top: 0;
-	background:#fff;
+	background: #fff;
+	box-shadow: 0 0 4px rgba(0,0,0,0.6);
 }
 header, .main-sel, footer {
 	float: left;
@@ -137,6 +138,94 @@ header .navbar {
 	display: inline-block;
 	font-size: 24px;
 	padding: 10px 30px;
+}
+.head-text h1 {
+	color: #606062;
+	font-size: 40px;
+	font-weight: 600;
+}
+.memboxs h2 {
+	font-size: #000;
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.img-box {
+	height: 300px;
+	overflow: hidden;
+	margin-bottom:15px;
+}
+.more-butn a{
+	color:#000;
+	font-size:14px;
+	text-decoration: underline;
+}
+.more-butn a:hover{
+	color:#cf3136;
+}
+
+/**How to join**/
+.olclick ol li {
+    color: #6f6d71;
+    padding: 3px 0px;
+}
+.aply-ntn .btn {
+    background: #373435;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.aply-ntn .btn:hover {
+    background: #ce181e;
+}
+
+.text-white ol li {
+    color: #fff;
+}
+
+.text-white h1{ color:#fff;}
+
+/**Foooter css**/
+
+.darkbg{
+	background:#373435;
+}
+
+.foot-social li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.foot-social li a {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 100px;
+}
+
+.contctus h5 {
+    color: #fff;
+}
+
+.contctus a {
+    color: #fff;
+}
+.usefull-link ul li{
+    display: block;
+    color: #fff;
+	padding:4px 0px;
+}
+
+.usefull-link ul li a {
+    display: block;
+    color: #fff;
+}
+.usefull-link ul li a:hover {
+    color: #ce181e;
 }
 
 /***
